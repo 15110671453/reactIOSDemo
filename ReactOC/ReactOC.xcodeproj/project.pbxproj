@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC360DDB1E52F56100DE8B5D /* index.ios.js in Resources */ = {isa = PBXBuildFile; fileRef = EC360DDA1E52F56100DE8B5D /* index.ios.js */; };
+		EC4BF95A1E52ED3D00F439C0 /* ReactView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4BF9591E52ED3D00F439C0 /* ReactView.m */; };
+		EC97538E1E52E63300B6760B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC97538D1E52E63300B6760B /* main.m */; };
+		EC9753911E52E63300B6760B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9753901E52E63300B6760B /* AppDelegate.m */; };
+		EC9753941E52E63300B6760B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9753931E52E63300B6760B /* ViewController.m */; };
+		EC9753971E52E63300B6760B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC9753951E52E63300B6760B /* Main.storyboard */; };
+		EC97539A1E52E63300B6760B /* ReactOC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC9753981E52E63300B6760B /* ReactOC.xcdatamodeld */; };
+		EC97539C1E52E63300B6760B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC97539B1E52E63300B6760B /* Assets.xcassets */; };
+		EC97539F1E52E63300B6760B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC97539D1E52E63300B6760B /* LaunchScreen.storyboard */; };
+		EC9753AA1E52E63300B6760B /* ReactOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9753A91E52E63300B6760B /* ReactOCTests.m */; };
+		EC9753B51E52E63300B6760B /* ReactOCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9753B41E52E63300B6760B /* ReactOCUITests.m */; };
+		ECDBA6DF1E6CFF3C007AB137 /* register.ios.js in Resources */ = {isa = PBXBuildFile; fileRef = ECDBA6DE1E6CFF3C007AB137 /* register.ios.js */; };
+		ECFD8D951E5404DD0043D4C8 /* main.ios.js in Resources */ = {isa = PBXBuildFile; fileRef = ECFD8D941E5404DD0043D4C8 /* main.ios.js */; };
+		ECFD8D981E5408180043D4C8 /* AppSettingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFD8D971E5408180043D4C8 /* AppSettingManager.m */; };
+		ECFD8D9A1E5422670043D4C8 /* flexbox.ios.js in Resources */ = {isa = PBXBuildFile; fileRef = ECFD8D991E5422670043D4C8 /* flexbox.ios.js */; };
+		ECFD8D9C1E5429850043D4C8 /* firstview.ios.js in Resources */ = {isa = PBXBuildFile; fileRef = ECFD8D9B1E5429850043D4C8 /* firstview.ios.js */; };
+		ECFD8DA11E542D630043D4C8 /* firstimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECFD8DA01E542D630043D4C8 /* firstimage.jpg */; };
+		ECFD8DA41E5449830043D4C8 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = ECFD8DA31E5449830043D4C8 /* README.md */; };
+		FD11C0AE19E382278F3835FD /* libPods-ReactOC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D85FD76DF0700E3033F6A2E9 /* libPods-ReactOC.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC9753A61E52E63300B6760B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC9753811E52E63300B6760B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC9753881E52E63300B6760B;
+			remoteInfo = ReactOC;
+		};
+		EC9753B11E52E63300B6760B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC9753811E52E63300B6760B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC9753881E52E63300B6760B;
+			remoteInfo = ReactOC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D43C27F8ACBB375B4871BCDE /* Pods-ReactOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactOC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactOC/Pods-ReactOC.debug.xcconfig"; sourceTree = "<group>"; };
+		D85FD76DF0700E3033F6A2E9 /* libPods-ReactOC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactOC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC360DDA1E52F56100DE8B5D /* index.ios.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.ios.js; sourceTree = "<group>"; };
+		EC4BF9581E52ED3D00F439C0 /* ReactView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactView.h; sourceTree = "<group>"; };
+		EC4BF9591E52ED3D00F439C0 /* ReactView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactView.m; sourceTree = "<group>"; };
+		EC9753891E52E63300B6760B /* ReactOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC97538D1E52E63300B6760B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC97538F1E52E63300B6760B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC9753901E52E63300B6760B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC9753921E52E63300B6760B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC9753931E52E63300B6760B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC9753961E52E63300B6760B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC9753991E52E63300B6760B /* ReactOC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ReactOC.xcdatamodel; sourceTree = "<group>"; };
+		EC97539B1E52E63300B6760B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC97539E1E52E63300B6760B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC9753A01E52E63300B6760B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC9753A51E52E63300B6760B /* ReactOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC9753A91E52E63300B6760B /* ReactOCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactOCTests.m; sourceTree = "<group>"; };
+		EC9753AB1E52E63300B6760B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC9753B01E52E63300B6760B /* ReactOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC9753B41E52E63300B6760B /* ReactOCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactOCUITests.m; sourceTree = "<group>"; };
+		EC9753B61E52E63300B6760B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECDBA6DE1E6CFF3C007AB137 /* register.ios.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = register.ios.js; sourceTree = "<group>"; };
+		ECFD8D941E5404DD0043D4C8 /* main.ios.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.ios.js; sourceTree = "<group>"; };
+		ECFD8D961E5408180043D4C8 /* AppSettingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppSettingManager.h; sourceTree = "<group>"; };
+		ECFD8D971E5408180043D4C8 /* AppSettingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppSettingManager.m; sourceTree = "<group>"; };
+		ECFD8D991E5422670043D4C8 /* flexbox.ios.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = flexbox.ios.js; sourceTree = "<group>"; };
+		ECFD8D9B1E5429850043D4C8 /* firstview.ios.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = firstview.ios.js; sourceTree = "<group>"; };
+		ECFD8DA01E542D630043D4C8 /* firstimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = firstimage.jpg; sourceTree = "<group>"; };
+		ECFD8DA31E5449830043D4C8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F4F0863F786F9CBFE8ABEAFD /* Pods-ReactOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactOC.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactOC/Pods-ReactOC.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC9753861E52E63300B6760B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD11C0AE19E382278F3835FD /* libPods-ReactOC.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9753A21E52E63300B6760B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9753AD1E52E63300B6760B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E75E295D32E758B69C9FAD1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D43C27F8ACBB375B4871BCDE /* Pods-ReactOC.debug.xcconfig */,
+				F4F0863F786F9CBFE8ABEAFD /* Pods-ReactOC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AE3F359618794D9795D658CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D85FD76DF0700E3033F6A2E9 /* libPods-ReactOC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC4BF9551E52EAEE00F439C0 /* ReactComponent */ = {
+			isa = PBXGroup;
+			children = (
+				ECDBA6DE1E6CFF3C007AB137 /* register.ios.js */,
+				EC360DDA1E52F56100DE8B5D /* index.ios.js */,
+				ECFD8D941E5404DD0043D4C8 /* main.ios.js */,
+				ECFD8D991E5422670043D4C8 /* flexbox.ios.js */,
+				ECFD8D9B1E5429850043D4C8 /* firstview.ios.js */,
+			);
+			path = ReactComponent;
+			sourceTree = "<group>";
+		};
+		EC9753801E52E63300B6760B = {
+			isa = PBXGroup;
+			children = (
+				EC97538B1E52E63300B6760B /* ReactOC */,
+				EC9753A81E52E63300B6760B /* ReactOCTests */,
+				EC9753B31E52E63300B6760B /* ReactOCUITests */,
+				EC97538A1E52E63300B6760B /* Products */,
+				3E75E295D32E758B69C9FAD1 /* Pods */,
+				AE3F359618794D9795D658CB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EC97538A1E52E63300B6760B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC9753891E52E63300B6760B /* ReactOC.app */,
+				EC9753A51E52E63300B6760B /* ReactOCTests.xctest */,
+				EC9753B01E52E63300B6760B /* ReactOCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC97538B1E52E63300B6760B /* ReactOC */ = {
+			isa = PBXGroup;
+			children = (
+				ECFD8DA21E54495C0043D4C8 /* DebugDocuments */,
+				ECFD8D9F1E542D630043D4C8 /* ImagesWeb */,
+				EC4BF9551E52EAEE00F439C0 /* ReactComponent */,
+				EC97538F1E52E63300B6760B /* AppDelegate.h */,
+				EC9753901E52E63300B6760B /* AppDelegate.m */,
+				ECFD8D961E5408180043D4C8 /* AppSettingManager.h */,
+				ECFD8D971E5408180043D4C8 /* AppSettingManager.m */,
+				EC9753921E52E63300B6760B /* ViewController.h */,
+				EC9753931E52E63300B6760B /* ViewController.m */,
+				EC4BF9581E52ED3D00F439C0 /* ReactView.h */,
+				EC4BF9591E52ED3D00F439C0 /* ReactView.m */,
+				EC9753951E52E63300B6760B /* Main.storyboard */,
+				EC97539B1E52E63300B6760B /* Assets.xcassets */,
+				EC97539D1E52E63300B6760B /* LaunchScreen.storyboard */,
+				EC9753A01E52E63300B6760B /* Info.plist */,
+				EC9753981E52E63300B6760B /* ReactOC.xcdatamodeld */,
+				EC97538C1E52E63300B6760B /* Supporting Files */,
+			);
+			path = ReactOC;
+			sourceTree = "<group>";
+		};
+		EC97538C1E52E63300B6760B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC97538D1E52E63300B6760B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC9753A81E52E63300B6760B /* ReactOCTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC9753A91E52E63300B6760B /* ReactOCTests.m */,
+				EC9753AB1E52E63300B6760B /* Info.plist */,
+			);
+			path = ReactOCTests;
+			sourceTree = "<group>";
+		};
+		EC9753B31E52E63300B6760B /* ReactOCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC9753B41E52E63300B6760B /* ReactOCUITests.m */,
+				EC9753B61E52E63300B6760B /* Info.plist */,
+			);
+			path = ReactOCUITests;
+			sourceTree = "<group>";
+		};
+		ECFD8D9F1E542D630043D4C8 /* ImagesWeb */ = {
+			isa = PBXGroup;
+			children = (
+				ECFD8DA01E542D630043D4C8 /* firstimage.jpg */,
+			);
+			path = ImagesWeb;
+			sourceTree = "<group>";
+		};
+		ECFD8DA21E54495C0043D4C8 /* DebugDocuments */ = {
+			isa = PBXGroup;
+			children = (
+				ECFD8DA31E5449830043D4C8 /* README.md */,
+			);
+			path = DebugDocuments;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC9753881E52E63300B6760B /* ReactOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC9753B91E52E63300B6760B /* Build configuration list for PBXNativeTarget "ReactOC" */;
+			buildPhases = (
+				0B42C15FE4C12993CE1461CE /* [CP] Check Pods Manifest.lock */,
+				EC9753851E52E63300B6760B /* Sources */,
+				EC9753861E52E63300B6760B /* Frameworks */,
+				EC9753871E52E63300B6760B /* Resources */,
+				0C0BD0A639F6F8E5989075A3 /* [CP] Embed Pods Frameworks */,
+				E82E8D447834E29F17FB12BB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactOC;
+			productName = ReactOC;
+			productReference = EC9753891E52E63300B6760B /* ReactOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC9753A41E52E63300B6760B /* ReactOCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC9753BC1E52E63300B6760B /* Build configuration list for PBXNativeTarget "ReactOCTests" */;
+			buildPhases = (
+				EC9753A11E52E63300B6760B /* Sources */,
+				EC9753A21E52E63300B6760B /* Frameworks */,
+				EC9753A31E52E63300B6760B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC9753A71E52E63300B6760B /* PBXTargetDependency */,
+			);
+			name = ReactOCTests;
+			productName = ReactOCTests;
+			productReference = EC9753A51E52E63300B6760B /* ReactOCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC9753AF1E52E63300B6760B /* ReactOCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC9753BF1E52E63300B6760B /* Build configuration list for PBXNativeTarget "ReactOCUITests" */;
+			buildPhases = (
+				EC9753AC1E52E63300B6760B /* Sources */,
+				EC9753AD1E52E63300B6760B /* Frameworks */,
+				EC9753AE1E52E63300B6760B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC9753B21E52E63300B6760B /* PBXTargetDependency */,
+			);
+			name = ReactOCUITests;
+			productName = ReactOCUITests;
+			productReference = EC9753B01E52E63300B6760B /* ReactOCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC9753811E52E63300B6760B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = admindyn;
+				TargetAttributes = {
+					EC9753881E52E63300B6760B = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 58W4HKZ65K;
+						ProvisioningStyle = Automatic;
+					};
+					EC9753A41E52E63300B6760B = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 58W4HKZ65K;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC9753881E52E63300B6760B;
+					};
+					EC9753AF1E52E63300B6760B = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 58W4HKZ65K;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC9753881E52E63300B6760B;
+					};
+				};
+			};
+			buildConfigurationList = EC9753841E52E63300B6760B /* Build configuration list for PBXProject "ReactOC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC9753801E52E63300B6760B;
+			productRefGroup = EC97538A1E52E63300B6760B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC9753881E52E63300B6760B /* ReactOC */,
+				EC9753A41E52E63300B6760B /* ReactOCTests */,
+				EC9753AF1E52E63300B6760B /* ReactOCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC9753871E52E63300B6760B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECFD8DA11E542D630043D4C8 /* firstimage.jpg in Resources */,
+				EC360DDB1E52F56100DE8B5D /* index.ios.js in Resources */,
+				EC97539F1E52E63300B6760B /* LaunchScreen.storyboard in Resources */,
+				ECFD8D9A1E5422670043D4C8 /* flexbox.ios.js in Resources */,
+				ECDBA6DF1E6CFF3C007AB137 /* register.ios.js in Resources */,
+				EC97539C1E52E63300B6760B /* Assets.xcassets in Resources */,
+				EC9753971E52E63300B6760B /* Main.storyboard in Resources */,
+				ECFD8D951E5404DD0043D4C8 /* main.ios.js in Resources */,
+				ECFD8D9C1E5429850043D4C8 /* firstview.ios.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9753A31E52E63300B6760B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9753AE1E52E63300B6760B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B42C15FE4C12993CE1461CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0C0BD0A639F6F8E5989075A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactOC/Pods-ReactOC-frameworks.sh\"\n";
+		};
+		E82E8D447834E29F17FB12BB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/myfile",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactOC/Pods-ReactOC-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC9753851E52E63300B6760B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC4BF95A1E52ED3D00F439C0 /* ReactView.m in Sources */,
+				EC9753941E52E63300B6760B /* ViewController.m in Sources */,
+				EC97539A1E52E63300B6760B /* ReactOC.xcdatamodeld in Sources */,
+				ECFD8DA41E5449830043D4C8 /* README.md in Sources */,
+				EC9753911E52E63300B6760B /* AppDelegate.m in Sources */,
+				ECFD8D981E5408180043D4C8 /* AppSettingManager.m in Sources */,
+				EC97538E1E52E63300B6760B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9753A11E52E63300B6760B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9753AA1E52E63300B6760B /* ReactOCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9753AC1E52E63300B6760B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9753B51E52E63300B6760B /* ReactOCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC9753A71E52E63300B6760B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC9753881E52E63300B6760B /* ReactOC */;
+			targetProxy = EC9753A61E52E63300B6760B /* PBXContainerItemProxy */;
+		};
+		EC9753B21E52E63300B6760B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC9753881E52E63300B6760B /* ReactOC */;
+			targetProxy = EC9753B11E52E63300B6760B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC9753951E52E63300B6760B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC9753961E52E63300B6760B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC97539D1E52E63300B6760B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC97539E1E52E63300B6760B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC9753B71E52E63300B6760B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC9753B81E52E63300B6760B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC9753BA1E52E63300B6760B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D43C27F8ACBB375B4871BCDE /* Pods-ReactOC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 58W4HKZ65K;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/BaiduMapKit/BaiduMapKit\"",
+					"\"${PODS_ROOT}/Bugly\"",
+					"\"${PODS_ROOT}/React/React\"",
+					"\"${PODS_ROOT}/RongCloudIMKit/Rong_Cloud_iOS_IMKit_SDK_v2_4_11_stable\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/BaiduMapKit\"",
+					"\"${PODS_ROOT}/Headers/Public/Bugly\"",
+					"\"${PODS_ROOT}/Headers/Public/FMDB\"",
+					"\"${PODS_ROOT}/Headers/Public/KTScannerView\"",
+					"\"${PODS_ROOT}/Headers/Public/MBProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/MTLFMDBAdapter\"",
+					"\"${PODS_ROOT}/Headers/Public/Mantle\"",
+					"\"${PODS_ROOT}/Headers/Public/MarqueeLabel\"",
+					"\"${PODS_ROOT}/Headers/Public/OBShapedButton\"",
+					"\"${PODS_ROOT}/Headers/Public/PNChart\"",
+					"\"${PODS_ROOT}/Headers/Public/RBStoryboardLink\"",
+					"\"${PODS_ROOT}/Headers/Public/Reachability\"",
+					"\"${PODS_ROOT}/Headers/Public/React\"",
+					"\"${PODS_ROOT}/Headers/Public/RongCloudIMKit\"",
+					"\"${PODS_ROOT}/Headers/Public/SBJson\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/SSKeychain\"",
+					"\"${PODS_ROOT}/Headers/Public/SVPullToRefresh\"",
+					"\"${PODS_ROOT}/Headers/Public/SWTableViewCell\"",
+					"\"${PODS_ROOT}/Headers/Public/TPKeyboardAvoiding\"",
+					"\"${PODS_ROOT}/Headers/Public/UICountingLabel\"",
+					"\"${PODS_ROOT}/Headers/Public/UMengAnalytics-NO-IDFA\"",
+					"\"${PODS_ROOT}/Headers/Public/WYPopoverController\"",
+					"\"${PODS_ROOT}/Headers/Public/iToast\"",
+				);
+				INFOPLIST_FILE = ReactOC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bjcric1.com.ReactOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC9753BB1E52E63300B6760B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4F0863F786F9CBFE8ABEAFD /* Pods-ReactOC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 58W4HKZ65K;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/BaiduMapKit/BaiduMapKit\"",
+					"\"${PODS_ROOT}/Bugly\"",
+					"\"${PODS_ROOT}/React/React\"",
+					"\"${PODS_ROOT}/RongCloudIMKit/Rong_Cloud_iOS_IMKit_SDK_v2_4_11_stable\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/BaiduMapKit\"",
+					"\"${PODS_ROOT}/Headers/Public/Bugly\"",
+					"\"${PODS_ROOT}/Headers/Public/FMDB\"",
+					"\"${PODS_ROOT}/Headers/Public/KTScannerView\"",
+					"\"${PODS_ROOT}/Headers/Public/MBProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/MTLFMDBAdapter\"",
+					"\"${PODS_ROOT}/Headers/Public/Mantle\"",
+					"\"${PODS_ROOT}/Headers/Public/MarqueeLabel\"",
+					"\"${PODS_ROOT}/Headers/Public/OBShapedButton\"",
+					"\"${PODS_ROOT}/Headers/Public/PNChart\"",
+					"\"${PODS_ROOT}/Headers/Public/RBStoryboardLink\"",
+					"\"${PODS_ROOT}/Headers/Public/Reachability\"",
+					"\"${PODS_ROOT}/Headers/Public/React\"",
+					"\"${PODS_ROOT}/Headers/Public/RongCloudIMKit\"",
+					"\"${PODS_ROOT}/Headers/Public/SBJson\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/SSKeychain\"",
+					"\"${PODS_ROOT}/Headers/Public/SVPullToRefresh\"",
+					"\"${PODS_ROOT}/Headers/Public/SWTableViewCell\"",
+					"\"${PODS_ROOT}/Headers/Public/TPKeyboardAvoiding\"",
+					"\"${PODS_ROOT}/Headers/Public/UICountingLabel\"",
+					"\"${PODS_ROOT}/Headers/Public/UMengAnalytics-NO-IDFA\"",
+					"\"${PODS_ROOT}/Headers/Public/WYPopoverController\"",
+					"\"${PODS_ROOT}/Headers/Public/iToast\"",
+				);
+				INFOPLIST_FILE = ReactOC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bjcric1.com.ReactOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC9753BD1E52E63300B6760B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 58W4HKZ65K;
+				INFOPLIST_FILE = ReactOCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bjcric1.com.ReactOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactOC.app/ReactOC";
+			};
+			name = Debug;
+		};
+		EC9753BE1E52E63300B6760B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 58W4HKZ65K;
+				INFOPLIST_FILE = ReactOCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bjcric1.com.ReactOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactOC.app/ReactOC";
+			};
+			name = Release;
+		};
+		EC9753C01E52E63300B6760B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 58W4HKZ65K;
+				INFOPLIST_FILE = ReactOCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bjcric1.com.ReactOCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ReactOC;
+			};
+			name = Debug;
+		};
+		EC9753C11E52E63300B6760B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 58W4HKZ65K;
+				INFOPLIST_FILE = ReactOCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bjcric1.com.ReactOCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ReactOC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC9753841E52E63300B6760B /* Build configuration list for PBXProject "ReactOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9753B71E52E63300B6760B /* Debug */,
+				EC9753B81E52E63300B6760B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC9753B91E52E63300B6760B /* Build configuration list for PBXNativeTarget "ReactOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9753BA1E52E63300B6760B /* Debug */,
+				EC9753BB1E52E63300B6760B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC9753BC1E52E63300B6760B /* Build configuration list for PBXNativeTarget "ReactOCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9753BD1E52E63300B6760B /* Debug */,
+				EC9753BE1E52E63300B6760B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC9753BF1E52E63300B6760B /* Build configuration list for PBXNativeTarget "ReactOCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9753C01E52E63300B6760B /* Debug */,
+				EC9753C11E52E63300B6760B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EC9753981E52E63300B6760B /* ReactOC.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EC9753991E52E63300B6760B /* ReactOC.xcdatamodel */,
+			);
+			currentVersion = EC9753991E52E63300B6760B /* ReactOC.xcdatamodel */;
+			path = ReactOC.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EC9753811E52E63300B6760B /* Project object */;
+}
