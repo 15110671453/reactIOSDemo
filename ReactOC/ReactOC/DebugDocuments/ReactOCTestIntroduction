@@ -1,0 +1,40 @@
+第四  react native 程序 集成后
+、运行前 先启动需要的服务器 这里是开发测试服务器使用方法
+具体正式项目时 需要的服务器该如何设置 后续学习介绍
+bogon:ReactOC admindyn$ JS_DIR=pwd/ReactComponent
+bogon:ReactOC admindyn$ echo $JS_DIR
+pwd/ReactComponent
+bogon:ReactOC admindyn$ cd Pods/React/
+bogon:React admindyn$ npm run start --root $JS_DIR
+
+> react-native@0.11.0 start /Users/admindyn/Desktop/工作/集分宝项目工作目录/ReactOC/Pods/React
+> ./packager/packager.sh || true "pwd/ReactComponent"
+
+┌────────────────────────────────────────────────────────────────────────────┐
+│  Running packager on port 8081.                                            │
+│                                                                            │
+│  Keep this packager running while developing on any JS projects. Feel      │
+│  free to close this tab and run your own packager instance if you          │
+│  prefer.                                                                   │
+│                                                                            │
+│  https://github.com/facebook/react-native                                  │
+│                                                                            │
+└────────────────────────────────────────────────────────────────────────────┘
+Looking for JS files in
+/Users/admindyn/Desktop/工作/集分宝项目工作目录/ReactOC
+
+
+React packager ready.
+
+[17:17:23] <START> Building Dependency Graph
+[17:17:23] <START> Crawling File System
+[17:17:28] <END>   Crawling File System (4455ms)
+[17:17:28] <START> Building in-memory fs for JavaScript
+[17:17:28] <END>   Building in-memory fs for JavaScript (565ms)
+[17:17:28] <START> Building in-memory fs for Assets
+[17:17:29] <END>   Building in-memory fs for Assets (562ms)
+[17:17:29] <START> Building Haste Map
+[17:17:29] <START> Building (deprecated) Asset Map
+[17:17:29] <END>   Building (deprecated) Asset Map (228ms)
+[17:17:30] <END>   Building Haste Map (1247ms)
+[17:17:30] <END>   Building Dependency Graph (6830ms) 
