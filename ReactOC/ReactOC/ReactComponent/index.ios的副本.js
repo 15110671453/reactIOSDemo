@@ -42,7 +42,10 @@ var、function、let、const、import(require)、class。
 'use strict'
  var React = require('react-native');
 
- var {Text,View,AppRegistry,Navigator,} = React;
+ var {
+     Text,
+     View,AppRegistry,NavigatorIOS
+ } = React;
 
 //这句代码是ES6 中新增的解构(Destructuring)赋值语句。
 //准许你获取对象的多个属性并且使用一条语句将它们赋给多个变量。
@@ -50,10 +53,24 @@ var、function、let、const、import(require)、class。
 //var Text = React.Text;
 //var View = React.View
 
-var RegisterLeaf = require('./RegisterLeaf');
-var WaitingLeaf = require('./WaitingLeaf');
-var FlexBoxUI2 = require('./FlexBoxUI2');
-var FlexBoxUI3 = require('./FlexBoxUI3');
+var styles = React.StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#F5FCFF',
+  },
+  welcome: {
+    fontSize: 20,
+    textAlign: 'center',
+    margin: 10,
+  },
+  instructions: {
+    textAlign: 'center',
+    color: '#333333',
+    marginBottom: 5,
+  },
+});
 /*
 ES6中添加了对类的支持，
 引入了class关键字（其实class在JavaScript中一直是保留字，
@@ -62,39 +79,31 @@ JS本身就是面向对象的，ES6中提供的类实际上只是JS原型模式�
 现在提供原生的class支持后，对象的创建，继承更加直观了，
 并且父类方法的调用，实例化，静态方法和构造函数等概念都更加形象化。
 */
-var NaviModule = React.createClass({
-
-  configureScene: function(route){
-    return Navigator.SceneConfigs.PushFromRight;
-  },
-  renderScene: function(router,navigator){
-    this._navigator = navigator;
-    switch(router.name){
-      case 'WaitingLeaf' :
-      return <WaitingLeaf navigator={navigator}></WaitingLeaf>;
-
-       case 'RegisterLeaf' :
-
-      return <RegisterLeaf navigator={navigator}></RegisterLeaf>;
-
-       case 'page1':
-      return <FlexBoxUI3 navigator={navigator}></FlexBoxUI3>;
-       case 'FlexBoxUI2':
-      return <FlexBoxUI2 navigator={navigator}></FlexBoxUI2>;
+ class ReactOC extends React.Component {
+     render() {
+        return ( <View style = { styles.container } >
+                <Text> This is a SimpleApp project 
+                </Text>
+                </View>
+                );
     }
-  },
-  render:function(){
-    return (<Navigator initialRoute={{name:'page1'}}
-     configureScene={this.configureScene} renderScene={this.renderScene}></Navigator>);
-  }
-});
+
+  /*
+  ECMAScript 6中,
+  引入了一种名叫方法定义(method definition)的新语法糖,
+  相对于以前的完整写法,这种简写形式可以让你少写一个function键字.
+  等价于
+  React.createClass({
+  render : function() {
+     return (
+      <View></View>
+     )
+    }
+  })
+  */
+}
 
 
 
- 
-
-
-
-
-React.AppRegistry.registerComponent( 'ReactOC' , () => NaviModule );
+React.AppRegistry.registerComponent( 'ReactOC' , () => ReactOC );
 

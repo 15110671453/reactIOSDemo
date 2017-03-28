@@ -47,7 +47,13 @@ React packager ready.
 
 
 注册页面 这里 需要注意AppRegistry.registerComponent
-中第一个页面中根父级组件名是不是应该和项目工程文件名一致
+中第一个页面中根父级组件名是不是应该和项目工程文件名一致??
+
+每个工程页面的名字AppRegistry.registerComponent('ReactOC', () => ReactOC);
+
+中字符串 ReactOC 应该与IOS客户端代码
+ RCTRootView* rootView =[[RCTRootView alloc]initWithBundleURL:jsCodeLocation moduleName:@"ReactOC" initialProperties:@{@"key1":@"我爱你北京",@"key2":@"我爱你山西"} launchOptions:self.launchOptions];
+中的 一致 ，尖头函数中的对象则与js文件中生命的组件的变量名一致即可
 
 'use strict';
 let React = require('react-native');

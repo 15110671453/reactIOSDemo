@@ -7,8 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EC360DDB1E52F56100DE8B5D /* index.ios.js in Resources */ = {isa = PBXBuildFile; fileRef = EC360DDA1E52F56100DE8B5D /* index.ios.js */; };
 		EC4BF95A1E52ED3D00F439C0 /* ReactView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4BF9591E52ED3D00F439C0 /* ReactView.m */; };
+		EC5B3E0E1E8A364A00A9848B /* ConfirmDialog.js in Resources */ = {isa = PBXBuildFile; fileRef = EC5B3E001E8A364A00A9848B /* ConfirmDialog.js */; };
+		EC5B3E0F1E8A364A00A9848B /* firstview.ios.js in Resources */ = {isa = PBXBuildFile; fileRef = EC5B3E011E8A364A00A9848B /* firstview.ios.js */; };
+		EC5B3E101E8A364A00A9848B /* flexbox.ios.js in Resources */ = {isa = PBXBuildFile; fileRef = EC5B3E021E8A364A00A9848B /* flexbox.ios.js */; };
+		EC5B3E111E8A364A00A9848B /* FlexBoxUI.ios.js in Resources */ = {isa = PBXBuildFile; fileRef = EC5B3E031E8A364A00A9848B /* FlexBoxUI.ios.js */; };
+		EC5B3E131E8A364A00A9848B /* FlexBoxUI2.js in Resources */ = {isa = PBXBuildFile; fileRef = EC5B3E051E8A364A00A9848B /* FlexBoxUI2.js */; };
+		EC5B3E141E8A364A00A9848B /* FlexBoxUI3.js in Resources */ = {isa = PBXBuildFile; fileRef = EC5B3E061E8A364A00A9848B /* FlexBoxUI3.js */; };
+		EC5B3E151E8A364A00A9848B /* index.ios.js in Resources */ = {isa = PBXBuildFile; fileRef = EC5B3E071E8A364A00A9848B /* index.ios.js */; };
+		EC5B3E161E8A364A00A9848B /* index.ios的副本.js in Resources */ = {isa = PBXBuildFile; fileRef = EC5B3E081E8A364A00A9848B /* index.ios的副本.js */; };
+		EC5B3E171E8A364A00A9848B /* main.ios.js in Resources */ = {isa = PBXBuildFile; fileRef = EC5B3E091E8A364A00A9848B /* main.ios.js */; };
+		EC5B3E181E8A364A00A9848B /* NavBar.js in Resources */ = {isa = PBXBuildFile; fileRef = EC5B3E0A1E8A364A00A9848B /* NavBar.js */; };
+		EC5B3E191E8A364A00A9848B /* register.ios.js in Resources */ = {isa = PBXBuildFile; fileRef = EC5B3E0B1E8A364A00A9848B /* register.ios.js */; };
+		EC5B3E1A1E8A364A00A9848B /* RegisterLeaf.js in Resources */ = {isa = PBXBuildFile; fileRef = EC5B3E0C1E8A364A00A9848B /* RegisterLeaf.js */; };
+		EC5B3E1B1E8A364A00A9848B /* WaitingLeaf.js in Resources */ = {isa = PBXBuildFile; fileRef = EC5B3E0D1E8A364A00A9848B /* WaitingLeaf.js */; };
+		EC5B3E1D1E8A421600A9848B /* FlexBoxUI2backup.ios.js in Resources */ = {isa = PBXBuildFile; fileRef = EC5B3E1C1E8A421600A9848B /* FlexBoxUI2backup.ios.js */; };
+		EC820D941E88BA5C009613B5 /* ReactOCTestIntroduction in Resources */ = {isa = PBXBuildFile; fileRef = EC820D931E88BA5C009613B5 /* ReactOCTestIntroduction */; };
 		EC97538E1E52E63300B6760B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC97538D1E52E63300B6760B /* main.m */; };
 		EC9753911E52E63300B6760B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9753901E52E63300B6760B /* AppDelegate.m */; };
 		EC9753941E52E63300B6760B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9753931E52E63300B6760B /* ViewController.m */; };
@@ -18,11 +32,8 @@
 		EC97539F1E52E63300B6760B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC97539D1E52E63300B6760B /* LaunchScreen.storyboard */; };
 		EC9753AA1E52E63300B6760B /* ReactOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9753A91E52E63300B6760B /* ReactOCTests.m */; };
 		EC9753B51E52E63300B6760B /* ReactOCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9753B41E52E63300B6760B /* ReactOCUITests.m */; };
-		ECDBA6DF1E6CFF3C007AB137 /* register.ios.js in Resources */ = {isa = PBXBuildFile; fileRef = ECDBA6DE1E6CFF3C007AB137 /* register.ios.js */; };
-		ECFD8D951E5404DD0043D4C8 /* main.ios.js in Resources */ = {isa = PBXBuildFile; fileRef = ECFD8D941E5404DD0043D4C8 /* main.ios.js */; };
+		ECBBE40B1E89FCED00E9290F /* TestReactOC2details in Resources */ = {isa = PBXBuildFile; fileRef = ECBBE40A1E89FCED00E9290F /* TestReactOC2details */; };
 		ECFD8D981E5408180043D4C8 /* AppSettingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFD8D971E5408180043D4C8 /* AppSettingManager.m */; };
-		ECFD8D9A1E5422670043D4C8 /* flexbox.ios.js in Resources */ = {isa = PBXBuildFile; fileRef = ECFD8D991E5422670043D4C8 /* flexbox.ios.js */; };
-		ECFD8D9C1E5429850043D4C8 /* firstview.ios.js in Resources */ = {isa = PBXBuildFile; fileRef = ECFD8D9B1E5429850043D4C8 /* firstview.ios.js */; };
 		ECFD8DA11E542D630043D4C8 /* firstimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECFD8DA01E542D630043D4C8 /* firstimage.jpg */; };
 		ECFD8DA41E5449830043D4C8 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = ECFD8DA31E5449830043D4C8 /* README.md */; };
 		FD11C0AE19E382278F3835FD /* libPods-ReactOC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D85FD76DF0700E3033F6A2E9 /* libPods-ReactOC.a */; };
@@ -48,9 +59,23 @@
 /* Begin PBXFileReference section */
 		D43C27F8ACBB375B4871BCDE /* Pods-ReactOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactOC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactOC/Pods-ReactOC.debug.xcconfig"; sourceTree = "<group>"; };
 		D85FD76DF0700E3033F6A2E9 /* libPods-ReactOC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactOC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC360DDA1E52F56100DE8B5D /* index.ios.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.ios.js; sourceTree = "<group>"; };
 		EC4BF9581E52ED3D00F439C0 /* ReactView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactView.h; sourceTree = "<group>"; };
 		EC4BF9591E52ED3D00F439C0 /* ReactView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactView.m; sourceTree = "<group>"; };
+		EC5B3E001E8A364A00A9848B /* ConfirmDialog.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ConfirmDialog.js; sourceTree = "<group>"; };
+		EC5B3E011E8A364A00A9848B /* firstview.ios.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = firstview.ios.js; sourceTree = "<group>"; };
+		EC5B3E021E8A364A00A9848B /* flexbox.ios.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = flexbox.ios.js; sourceTree = "<group>"; };
+		EC5B3E031E8A364A00A9848B /* FlexBoxUI.ios.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = FlexBoxUI.ios.js; sourceTree = "<group>"; };
+		EC5B3E051E8A364A00A9848B /* FlexBoxUI2.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = FlexBoxUI2.js; sourceTree = "<group>"; };
+		EC5B3E061E8A364A00A9848B /* FlexBoxUI3.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = FlexBoxUI3.js; sourceTree = "<group>"; };
+		EC5B3E071E8A364A00A9848B /* index.ios.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.ios.js; sourceTree = "<group>"; };
+		EC5B3E081E8A364A00A9848B /* index.ios的副本.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "index.ios的副本.js"; sourceTree = "<group>"; };
+		EC5B3E091E8A364A00A9848B /* main.ios.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.ios.js; sourceTree = "<group>"; };
+		EC5B3E0A1E8A364A00A9848B /* NavBar.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = NavBar.js; sourceTree = "<group>"; };
+		EC5B3E0B1E8A364A00A9848B /* register.ios.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = register.ios.js; sourceTree = "<group>"; };
+		EC5B3E0C1E8A364A00A9848B /* RegisterLeaf.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = RegisterLeaf.js; sourceTree = "<group>"; };
+		EC5B3E0D1E8A364A00A9848B /* WaitingLeaf.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = WaitingLeaf.js; sourceTree = "<group>"; };
+		EC5B3E1C1E8A421600A9848B /* FlexBoxUI2backup.ios.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = FlexBoxUI2backup.ios.js; sourceTree = "<group>"; };
+		EC820D931E88BA5C009613B5 /* ReactOCTestIntroduction */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ReactOCTestIntroduction; path = ../ReactOCTestIntroduction; sourceTree = "<group>"; };
 		EC9753891E52E63300B6760B /* ReactOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC97538D1E52E63300B6760B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EC97538F1E52E63300B6760B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,12 +93,9 @@
 		EC9753B01E52E63300B6760B /* ReactOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC9753B41E52E63300B6760B /* ReactOCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactOCUITests.m; sourceTree = "<group>"; };
 		EC9753B61E52E63300B6760B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ECDBA6DE1E6CFF3C007AB137 /* register.ios.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = register.ios.js; sourceTree = "<group>"; };
-		ECFD8D941E5404DD0043D4C8 /* main.ios.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.ios.js; sourceTree = "<group>"; };
+		ECBBE40A1E89FCED00E9290F /* TestReactOC2details */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TestReactOC2details; sourceTree = "<group>"; };
 		ECFD8D961E5408180043D4C8 /* AppSettingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppSettingManager.h; sourceTree = "<group>"; };
 		ECFD8D971E5408180043D4C8 /* AppSettingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppSettingManager.m; sourceTree = "<group>"; };
-		ECFD8D991E5422670043D4C8 /* flexbox.ios.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = flexbox.ios.js; sourceTree = "<group>"; };
-		ECFD8D9B1E5429850043D4C8 /* firstview.ios.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = firstview.ios.js; sourceTree = "<group>"; };
 		ECFD8DA01E542D630043D4C8 /* firstimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = firstimage.jpg; sourceTree = "<group>"; };
 		ECFD8DA31E5449830043D4C8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F4F0863F786F9CBFE8ABEAFD /* Pods-ReactOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactOC.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactOC/Pods-ReactOC.release.xcconfig"; sourceTree = "<group>"; };
@@ -122,14 +144,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EC4BF9551E52EAEE00F439C0 /* ReactComponent */ = {
+		EC5B3DFF1E8A364A00A9848B /* ReactComponent */ = {
 			isa = PBXGroup;
 			children = (
-				ECDBA6DE1E6CFF3C007AB137 /* register.ios.js */,
-				EC360DDA1E52F56100DE8B5D /* index.ios.js */,
-				ECFD8D941E5404DD0043D4C8 /* main.ios.js */,
-				ECFD8D991E5422670043D4C8 /* flexbox.ios.js */,
-				ECFD8D9B1E5429850043D4C8 /* firstview.ios.js */,
+				EC5B3E1C1E8A421600A9848B /* FlexBoxUI2backup.ios.js */,
+				EC5B3E001E8A364A00A9848B /* ConfirmDialog.js */,
+				EC5B3E011E8A364A00A9848B /* firstview.ios.js */,
+				EC5B3E021E8A364A00A9848B /* flexbox.ios.js */,
+				EC5B3E031E8A364A00A9848B /* FlexBoxUI.ios.js */,
+				EC5B3E051E8A364A00A9848B /* FlexBoxUI2.js */,
+				EC5B3E061E8A364A00A9848B /* FlexBoxUI3.js */,
+				EC5B3E071E8A364A00A9848B /* index.ios.js */,
+				EC5B3E081E8A364A00A9848B /* index.ios的副本.js */,
+				EC5B3E091E8A364A00A9848B /* main.ios.js */,
+				EC5B3E0A1E8A364A00A9848B /* NavBar.js */,
+				EC5B3E0B1E8A364A00A9848B /* register.ios.js */,
+				EC5B3E0C1E8A364A00A9848B /* RegisterLeaf.js */,
+				EC5B3E0D1E8A364A00A9848B /* WaitingLeaf.js */,
 			);
 			path = ReactComponent;
 			sourceTree = "<group>";
@@ -159,9 +190,9 @@
 		EC97538B1E52E63300B6760B /* ReactOC */ = {
 			isa = PBXGroup;
 			children = (
+				EC5B3DFF1E8A364A00A9848B /* ReactComponent */,
 				ECFD8DA21E54495C0043D4C8 /* DebugDocuments */,
 				ECFD8D9F1E542D630043D4C8 /* ImagesWeb */,
-				EC4BF9551E52EAEE00F439C0 /* ReactComponent */,
 				EC97538F1E52E63300B6760B /* AppDelegate.h */,
 				EC9753901E52E63300B6760B /* AppDelegate.m */,
 				ECFD8D961E5408180043D4C8 /* AppSettingManager.h */,
@@ -218,6 +249,8 @@
 			isa = PBXGroup;
 			children = (
 				ECFD8DA31E5449830043D4C8 /* README.md */,
+				EC820D931E88BA5C009613B5 /* ReactOCTestIntroduction */,
+				ECBBE40A1E89FCED00E9290F /* TestReactOC2details */,
 			);
 			path = DebugDocuments;
 			sourceTree = "<group>";
@@ -334,15 +367,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC5B3E1B1E8A364A00A9848B /* WaitingLeaf.js in Resources */,
+				EC5B3E151E8A364A00A9848B /* index.ios.js in Resources */,
+				EC5B3E1A1E8A364A00A9848B /* RegisterLeaf.js in Resources */,
+				EC5B3E161E8A364A00A9848B /* index.ios的副本.js in Resources */,
+				EC5B3E131E8A364A00A9848B /* FlexBoxUI2.js in Resources */,
 				ECFD8DA11E542D630043D4C8 /* firstimage.jpg in Resources */,
-				EC360DDB1E52F56100DE8B5D /* index.ios.js in Resources */,
+				EC5B3E191E8A364A00A9848B /* register.ios.js in Resources */,
+				EC5B3E181E8A364A00A9848B /* NavBar.js in Resources */,
+				EC5B3E171E8A364A00A9848B /* main.ios.js in Resources */,
+				EC5B3E1D1E8A421600A9848B /* FlexBoxUI2backup.ios.js in Resources */,
+				EC820D941E88BA5C009613B5 /* ReactOCTestIntroduction in Resources */,
+				EC5B3E111E8A364A00A9848B /* FlexBoxUI.ios.js in Resources */,
+				EC5B3E141E8A364A00A9848B /* FlexBoxUI3.js in Resources */,
+				EC5B3E101E8A364A00A9848B /* flexbox.ios.js in Resources */,
 				EC97539F1E52E63300B6760B /* LaunchScreen.storyboard in Resources */,
-				ECFD8D9A1E5422670043D4C8 /* flexbox.ios.js in Resources */,
-				ECDBA6DF1E6CFF3C007AB137 /* register.ios.js in Resources */,
 				EC97539C1E52E63300B6760B /* Assets.xcassets in Resources */,
 				EC9753971E52E63300B6760B /* Main.storyboard in Resources */,
-				ECFD8D951E5404DD0043D4C8 /* main.ios.js in Resources */,
-				ECFD8D9C1E5429850043D4C8 /* firstview.ios.js in Resources */,
+				EC5B3E0E1E8A364A00A9848B /* ConfirmDialog.js in Resources */,
+				ECBBE40B1E89FCED00E9290F /* TestReactOC2details in Resources */,
+				EC5B3E0F1E8A364A00A9848B /* firstview.ios.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

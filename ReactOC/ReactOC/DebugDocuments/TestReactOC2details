@@ -1,0 +1,85 @@
+Last login: Tue Mar 28 09:08:38 on console
+bogon:~ admindyn$ cd  /Users/admindyn/Desktop/工作/集分宝项目工作目录/ReactOC
+bogon:ReactOC admindyn$ ls -la
+total 48
+drwxr-xr-x  12 admindyn  staff    408  3 27 14:12 .
+drwxr-xr-x@ 34 admindyn  staff   1156  3 27 09:51 ..
+-rw-r--r--@  1 admindyn  staff  10244  3  9 16:18 .DS_Store
+-rw-r--r--@  1 admindyn  staff    820  2 15 11:04 Podfile
+-rw-r--r--   1 admindyn  staff   4064  2 15 11:09 Podfile.lock
+drwxr-xr-x  33 admindyn  staff   1122  3 27 14:27 Pods
+drwxr-xr-x  20 admindyn  staff    680  3 28 10:04 ReactOC
+drwxr-xr-x   5 admindyn  staff    170  3 28 10:03 ReactOC.xcodeproj
+drwxr-xr-x   4 admindyn  staff    136  2 14 15:34 ReactOC.xcworkspace
+drwxr-xr-x   4 admindyn  staff    136  2 14 15:16 ReactOCTests
+drwxr-xr-x   4 admindyn  staff    136  2 14 15:16 ReactOCUITests
+-rw-r--r--   1 admindyn  staff   1159  2 15 11:14 npm-debug.log
+bogon:ReactOC admindyn$ cd ReactOC
+bogon:ReactOC admindyn$ ls -la
+total 128
+drwxr-xr-x  20 admindyn  staff    680  3 28 10:04 .
+drwxr-xr-x  12 admindyn  staff    408  3 27 14:12 ..
+-rw-r--r--@  1 admindyn  staff  10244  3 28 10:02 .DS_Store
+-rw-r--r--@  1 admindyn  staff    403  2 14 15:16 AppDelegate.h
+-rw-r--r--@  1 admindyn  staff   4797  2 15 11:52 AppDelegate.m
+-rw-r--r--@  1 admindyn  staff    274  2 15 13:45 AppSettingManager.h
+-rw-r--r--@  1 admindyn  staff    404  2 15 13:45 AppSettingManager.m
+drwxr-xr-x   4 admindyn  staff    136  2 14 17:12 Assets.xcassets
+drwxr-xr-x   4 admindyn  staff    136  2 14 15:54 Base.lproj
+drwxr-xr-x   3 admindyn  staff    102  2 15 17:00 DebugDocuments
+drwxr-xr-x   4 admindyn  staff    136  2 15 14:32 ImagesWeb
+-rw-r--r--   1 admindyn  staff   1917  2 14 17:43 Info.plist
+drwxr-xr-x  13 admindyn  staff    442  3 28 09:56 ReactComponent
+drwxr-xr-x   4 admindyn  staff    136  2 14 15:16 ReactOC.xcdatamodeld
+-rw-r--r--@  1 admindyn  staff   4530  3 27 11:46 ReactOCTestIntroduction
+-rw-r--r--@  1 admindyn  staff    929  2 14 16:59 ReactView.h
+-rw-r--r--@  1 admindyn  staff   1674  2 15 17:09 ReactView.m
+-rw-r--r--@  1 admindyn  staff    270  2 15 11:31 ViewController.h
+-rw-r--r--@  1 admindyn  staff   1802  3 28 10:04 ViewController.m
+-rw-r--r--@  1 admindyn  staff    334  2 14 15:16 main.m
+bogon:ReactOC admindyn$ JS_DIR=pwd/React/Component
+bogon:ReactOC admindyn$ cd ../
+bogon:ReactOC admindyn$ cd ../
+bogon:集分宝项目工作目录 admindyn$ cd React
+-bash: cd: React: No such file or directory
+bogon:集分宝项目工作目录 admindyn$ cd ReactOC/
+bogon:ReactOC admindyn$ cd Pods/
+bogon:Pods admindyn$ cd React/
+bogon:React admindyn$ npm run start --root $JS_DIR
+(node:2387) fs: re-evaluating native module sources is not supported. If you are using the graceful-fs module, please update it to a more recent version.
+(node:2387) fs: re-evaluating native module sources is not supported. If you are using the graceful-fs module, please update it to a more recent version.
+(node:2387) fs: re-evaluating native module sources is not supported. If you are using the graceful-fs module, please update it to a more recent version.
+(node:2387) fs: re-evaluating native module sources is not supported. If you are using the graceful-fs module, please update it to a more recent version.
+
+> react-native@0.11.0 start /Users/admindyn/Desktop/工作/集分宝项目工作目录/ReactOC/Pods/React
+> ./packager/packager.sh || true "pwd/React/Component"
+
+┌────────────────────────────────────────────────────────────────────────────┐
+│  Running packager on port 8081.                                            │
+│                                                                            │
+│  Keep this packager running while developing on any JS projects. Feel      │
+│  free to close this tab and run your own packager instance if you          │
+│  prefer.                                                                   │
+│                                                                            │
+│  https://github.com/facebook/react-native                                  │
+│                                                                            │
+└────────────────────────────────────────────────────────────────────────────┘
+Looking for JS files in
+/Users/admindyn/Desktop/工作/集分宝项目工作目录/ReactOC
+
+
+React packager ready.
+
+[10:06:07] <START> Building Dependency Graph
+[10:06:07] <START> Crawling File System
+[10:06:09] <END>   Crawling File System (1510ms)
+[10:06:09] <START> Building in-memory fs for JavaScript
+[10:06:09] <END>   Building in-memory fs for JavaScript (296ms)
+[10:06:09] <START> Building in-memory fs for Assets
+[10:06:09] <END>   Building in-memory fs for Assets (279ms)
+[10:06:09] <START> Building Haste Map
+[10:06:10] <START> Building (deprecated) Asset Map
+[10:06:10] <END>   Building (deprecated) Asset Map (82ms)
+[10:06:10] <END>   Building Haste Map (700ms)
+[10:06:10] <END>   Building Dependency Graph (2786ms)
+
